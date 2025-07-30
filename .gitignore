@@ -1,0 +1,56 @@
+# === C++ / CMake Project ===
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+*.out
+
+# CMake build folders
+/build/
+/build-*/
+/cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+
+# Ninja files
+*.ninja
+.ninja_deps
+.ninja_log
+rules.ninja
+
+# Compiled resources
+*.pch
+*.gch
+
+# Logs and databases
+*.log
+*.csv
+*.db
+
+# IDEs ===
+# CLion / IntelliJ / JetBrains
+.idea/
+
+# VSCode (optional)
+.vscode/
+
+# === OS / General ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Editor backups ===
+*~
+*.swp
+*.swo
